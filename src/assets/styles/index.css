@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    @apply text-2xl;
+    font-family: 'Fredoka';
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600;
+  }
+
+  @font-face {
+    font-family: 'Fredoka';
+    font-weight: 400;
+    src: url("../fonts/FredokaOne-Regular.ttf") format("truetype");
+}
